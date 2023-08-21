@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import styles from './socials.module.css';
-import emailIcon from '../../../public/email.svg';
-import instagramIcon from '../../../public/instagram.svg';
-import soundcloudIcon from '../../../public/soundcloud.svg';
-import youtubeIcon from '../../../public/youtube.svg';
+import emailIcon from '../../../public/images/email.svg';
+import instagramIcon from '../../../public/images/instagram.svg';
+import soundcloudIcon from '../../../public/images/soundcloud.svg';
+import youtubeIcon from '../../../public/images/youtube.svg';
 
 const links = [
   {
