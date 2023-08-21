@@ -1,3 +1,13 @@
+.header {
+  display: flex;
+}
+
+.image {
+  height: 55px;
+  width: 55px;
+  margin-right: 10px;
+}
+
 .nav {
   position: -webkit-sticky;
   position: sticky;
@@ -48,7 +58,7 @@
 }
 
 .title {
-  font-size: 50px;
+  font-size: 55px;
   letter-spacing: -0.05em;
   margin-bottom: 1%;
   font-weight: normal;

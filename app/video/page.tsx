@@ -44,6 +44,7 @@ const Music = (): JSX.Element => (
     <ul className={styles.projects}>
       {musicIds.map(({ id, name }) => (
         <iframe
+          loading="lazy"
           key={name}
           className={styles.project}
           title={name}

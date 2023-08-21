@@ -1,4 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from './navbar.module.css';
 
@@ -6,12 +8,8 @@ import { usePathname } from 'next/navigation';
 
 const routes = [
   {
-    name: 'home',
-    path: '/',
-  },
-  {
     name: 'shows',
-    path: '/shows',
+    path: '/',
   },
   {
     name: 'video',
@@ -27,7 +25,10 @@ const Navbar = (): JSX.Element => {
   const pathname = usePathname();
   return (
     <nav className={styles.nav}>
-      <h1 className={styles.title}>joienya</h1>
+      <section className={styles.header}>
+        <img className={styles.image} src="/images/joienya.jpeg" alt="joienya (2018)" />
+        <h1 className={styles.title}>joienya</h1>
+      </section>
       <section className={styles.navLinks}>
         {routes.map(({ name, path }) => {
           const isActive = path === pathname;
