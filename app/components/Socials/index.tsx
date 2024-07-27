@@ -7,22 +7,22 @@ import youtubeIcon from '../../../public/images/youtube.svg';
 
 const links = [
   {
-    href: 'https://youtube.com/@joienyamusic',
+    href: 'https://youtube.com/@jechoesmusic',
     label: 'youtube',
     icon: youtubeIcon,
   },
   {
-    href: 'https://soundcloud.com/joienya',
+    href: 'https://soundcloud.com/jechoes',
     label: 'soundcloud',
     icon: soundcloudIcon,
   },
   {
-    href: 'https://www.instagram.com/joienya/',
+    href: 'https://www.instagram.com/jechoesmusic/',
     label: 'instagram',
     icon: instagramIcon,
   },
   {
-    href: 'mailto:joienyamusic@gmail.com',
+    href: 'mailto:jechoesmusic@gmail.com',
     label: 'email',
     icon: emailIcon,
   },

@@ -26,8 +26,12 @@ const Navbar = (): JSX.Element => {
   return (
     <nav className={styles.nav}>
       <section className={styles.header}>
-        <img className={styles.image} src="/images/joienya.jpeg" alt="joienya (2018)" />
-        <h1 className={styles.title}>joienya</h1>
+        <img
+          className={styles.image}
+          src="/images/jechoes.jpeg"
+          alt="jechoes (2018)"
+        />
+        <h1 className={styles.title}>jechoes</h1>
       </section>
       <section className={styles.navLinks}>
         {routes.map(({ name, path }) => {

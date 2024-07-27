@@ -1,7 +1,7 @@
 import styles from '@styles/shows.module.css';
 import { generateMetadata } from '@lib/metadata';
 
-export const metadata = generateMetadata('joienya | shows');
+export const metadata = generateMetadata('jechoes | shows');
 
 interface ShowEvent {
   name: string;
@@ -16,12 +16,12 @@ interface Show {
 
 const futureShows: Show[] = [
   {
-    year: '2023',
+    year: '2025',
     events: [
       {
-        name: '9/26 6:30pm · Amplifying Out Light @ Radiant Beer Co.',
-        shortName: '[9/26] Amplifying Out Light',
-        location: 'Anaheim, CA',
+        name: '...',
+        shortName: '',
+        location: '',
       },
     ],
   },
@@ -31,6 +31,11 @@ const pastShows: Show[] = [
   {
     year: '2023',
     events: [
+      {
+        name: 'Amplifying Out Light @ Radiant Beer Co.',
+        shortName: 'Amplifying Out Light',
+        location: 'Anaheim, CA',
+      },
       {
         name: 'IAC Livestream Concert: a skip, a hop, a jump by Nirmala Rajasekar',
         shortName: 'SCMIAC Livestream Concert',

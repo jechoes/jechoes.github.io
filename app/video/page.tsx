@@ -1,7 +1,7 @@
 import styles from '@styles/video.module.css';
 import { generateMetadata } from '@lib/metadata';
 
-export const metadata = generateMetadata('joienya | video');
+export const metadata = generateMetadata('jechoes | video');
 
 const musicIds = [
   {

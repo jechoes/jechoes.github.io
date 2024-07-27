@@ -1,7 +1,7 @@
 import styles from '@styles/audio.module.css';
 import { generateMetadata } from '@lib/metadata';
 
-export const metadata = generateMetadata('joienya | audio');
+export const metadata = generateMetadata('jechoes | audio');
 
 const soundcloudIds = [
   {

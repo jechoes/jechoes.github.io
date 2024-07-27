@@ -7,7 +7,7 @@ import Navbar from '@components/Navbar';
 import SocialLinks from '@components/Socials';
 import { generateMetadata } from '@lib/metadata';
 
-export const metadata = generateMetadata('joienya');
+export const metadata = generateMetadata('jechoes');
 
 export default function RootLayout({
   children,
